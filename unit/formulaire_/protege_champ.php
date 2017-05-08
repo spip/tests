@@ -66,8 +66,8 @@
   ),
   7 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->https://www.spip.net] https://www.spip.net',
   ),
   8 => 
   array (
@@ -86,8 +86,8 @@
   ),
   11 => 
   array (
-    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele <modeleinexistant|lien=[->http://www.spip.net]>',
+    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele <modeleinexistant|lien=[->https://www.spip.net]>',
   ),
   12 => 
   array (
@@ -115,11 +115,11 @@ paragraphes',
     array (
       0 => '',
       1 => '0',
-      2 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;http://www.spip.net] http://www.spip.net',
+      2 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;https://www.spip.net] https://www.spip.net',
       3 => 'Un texte avec des entit&amp;eacute;s &amp;amp;&amp;lt;&amp;gt;&amp;quot;',
       4 => 'Un texte sans entites &amp;&lt;&gt;&quot;&#039;',
       5 => '{{{Des raccourcis}}} {italique} {{gras}} &lt;code&gt;du code&lt;/code&gt;',
-      6 => 'Un modele &lt;modeleinexistant|lien=[-&gt;http://www.spip.net]&gt;',
+      6 => 'Un modele &lt;modeleinexistant|lien=[-&gt;https://www.spip.net]&gt;',
       7 => 'Un texte avec des retour
 a la ligne et meme des
 
@@ -129,11 +129,11 @@ paragraphes',
     array (
       0 => '',
       1 => '0',
-      2 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->http://www.spip.net] http://www.spip.net',
+      2 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->https://www.spip.net] https://www.spip.net',
       3 => 'Un texte avec des entit&eacute;s &amp;&lt;&gt;&quot;',
       4 => 'Un texte sans entites &<>"\'',
       5 => '{{{Des raccourcis}}} {italique} {{gras}} <code>du code</code>',
-      6 => 'Un modele <modeleinexistant|lien=[->http://www.spip.net]>',
+      6 => 'Un modele <modeleinexistant|lien=[->https://www.spip.net]>',
       7 => 'Un texte avec des retour
 a la ligne et meme des
 

@@ -36,7 +36,7 @@
       0 => 137,
       1 => 403,
     ),
-    1 => 'http://www.spip.net/squelettes/img/spip.png',
+    1 => 'https://www.spip.net/squelettes/img/spip.png',
   ),
   1 => 
   array (

@@ -12,7 +12,7 @@
 	$amp = str_replace('&', '&amp;', $url);
 
 	$essais[] =
-	 array("aujourd&#039;hui &gt; &#034;30&#034; &rarr; 50","aujourd'hui > \"30\" &rarr; <a href='http://www.spip.net'>50</a>");
+	 array("aujourd&#039;hui &gt; &#034;30&#034; &rarr; 50","aujourd'hui > \"30\" &rarr; <a href='https://www.spip.net'>50</a>");
 
 	$essais[] = 
 	 array('L&#039;histoire &#039;tr&#232;s&#039; &#034;folle&#034; des m&#233;tas en iitalik','L\'histoire \'tr&egrave;s\' "folle" <strong>des</strong>&nbsp;m&eacute;tas<p>en <em>ii</em>talik</p>');

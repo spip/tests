@@ -48,8 +48,8 @@
   ),
   2 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->https://www.spip.net] https://www.spip.net',
   ),
   3 => 
   array (
@@ -83,8 +83,8 @@
   ),
   9 => 
   array (
-    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele <modeleinexistant|lien=[->http://www.spip.net]>',
+    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele <modeleinexistant|lien=[->https://www.spip.net]>',
   ),
   10 => 
   array (
@@ -99,8 +99,8 @@ paragraphes',
   ),
   11 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;&lt;/a&gt; [Article 1 avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;art1] [spip avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents ISO aàâä eéèêë iîï oô uùü</a> [Article 1 avec des accents ISO aàâä eéèêë iîï oô uùü->art1] [spip avec des accents ISO aàâä eéèêë iîï oô uùü->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;&lt;/a&gt; [Article 1 avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;art1] [spip avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents ISO aàâä eéèêë iîï oô uùü</a> [Article 1 avec des accents ISO aàâä eéèêë iîï oô uùü->art1] [spip avec des accents ISO aàâä eéèêë iîï oô uùü->https://www.spip.net] https://www.spip.net',
   ),
   12 => 
   array (
@@ -134,8 +134,8 @@ paragraphes',
   ),
   18 => 
   array (
-    0 => 'Un modele avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml; &lt;modeleinexistant|lien=[avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele avec des accents ISO aàâä eéèêë iîï oô uùü <modeleinexistant|lien=[avec des accents ISO aàâä eéèêë iîï oô uùü->http://www.spip.net]>',
+    0 => 'Un modele avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml; &lt;modeleinexistant|lien=[avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele avec des accents ISO aàâä eéèêë iîï oô uùü <modeleinexistant|lien=[avec des accents ISO aàâä eéèêë iîï oô uùü->https://www.spip.net]>',
   ),
   19 => 
   array (
@@ -150,8 +150,8 @@ paragraphes avec des accents ISO aàâä eéèêë iîï oô uùü',
   ),
   20 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;&lt;/a&gt; [Article 1 avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;art1] [spip avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼</a> [Article 1 avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->art1] [spip avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;&lt;/a&gt; [Article 1 avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;art1] [spip avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼</a> [Article 1 avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->art1] [spip avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->https://www.spip.net] https://www.spip.net',
   ),
   21 => 
   array (
@@ -185,8 +185,8 @@ paragraphes avec des accents ISO aàâä eéèêë iîï oô uùü',
   ),
   27 => 
   array (
-    0 => 'Un modele avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14; &lt;modeleinexistant|lien=[avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼ <modeleinexistant|lien=[avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->http://www.spip.net]>',
+    0 => 'Un modele avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14; &lt;modeleinexistant|lien=[avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼ <modeleinexistant|lien=[avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->https://www.spip.net]>',
   ),
   28 => 
   array (
@@ -213,8 +213,8 @@ paragraphes avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼',
   ),
   31 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->https://www.spip.net] https://www.spip.net',
     2 => ENT_COMPAT|ENT_HTML401,
   ),
   32 => 
@@ -255,8 +255,8 @@ paragraphes avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼',
   ),
   38 => 
   array (
-    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele <modeleinexistant|lien=[->http://www.spip.net]>',
+    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele <modeleinexistant|lien=[->https://www.spip.net]>',
     2 => ENT_COMPAT|ENT_HTML401,
   ),
   39 => 
@@ -273,8 +273,8 @@ paragraphes',
   ),
   40 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;&lt;/a&gt; [Article 1 avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;art1] [spip avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents ISO aàâä eéèêë iîï oô uùü</a> [Article 1 avec des accents ISO aàâä eéèêë iîï oô uùü->art1] [spip avec des accents ISO aàâä eéèêë iîï oô uùü->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;&lt;/a&gt; [Article 1 avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;art1] [spip avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents ISO aàâä eéèêë iîï oô uùü</a> [Article 1 avec des accents ISO aàâä eéèêë iîï oô uùü->art1] [spip avec des accents ISO aàâä eéèêë iîï oô uùü->https://www.spip.net] https://www.spip.net',
     2 => ENT_COMPAT|ENT_HTML401,
   ),
   41 => 
@@ -315,8 +315,8 @@ paragraphes',
   ),
   47 => 
   array (
-    0 => 'Un modele avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml; &lt;modeleinexistant|lien=[avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele avec des accents ISO aàâä eéèêë iîï oô uùü <modeleinexistant|lien=[avec des accents ISO aàâä eéèêë iîï oô uùü->http://www.spip.net]>',
+    0 => 'Un modele avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml; &lt;modeleinexistant|lien=[avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele avec des accents ISO aàâä eéèêë iîï oô uùü <modeleinexistant|lien=[avec des accents ISO aàâä eéèêë iîï oô uùü->https://www.spip.net]>',
     2 => ENT_COMPAT|ENT_HTML401,
   ),
   48 => 
@@ -333,8 +333,8 @@ paragraphes avec des accents ISO aàâä eéèêë iîï oô uùü',
   ),
   49 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;&lt;/a&gt; [Article 1 avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;art1] [spip avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼</a> [Article 1 avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->art1] [spip avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;&lt;/a&gt; [Article 1 avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;art1] [spip avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼</a> [Article 1 avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->art1] [spip avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->https://www.spip.net] https://www.spip.net',
     2 => ENT_COMPAT|ENT_HTML401,
   ),
   50 => 
@@ -375,8 +375,8 @@ paragraphes avec des accents ISO aàâä eéèêë iîï oô uùü',
   ),
   56 => 
   array (
-    0 => 'Un modele avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14; &lt;modeleinexistant|lien=[avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼ <modeleinexistant|lien=[avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->http://www.spip.net]>',
+    0 => 'Un modele avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14; &lt;modeleinexistant|lien=[avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼ <modeleinexistant|lien=[avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->https://www.spip.net]>',
     2 => ENT_COMPAT|ENT_HTML401,
   ),
   57 => 
@@ -405,8 +405,8 @@ paragraphes avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼',
   ),
   60 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->https://www.spip.net] https://www.spip.net',
     2 => ENT_QUOTES,
   ),
   61 => 
@@ -447,8 +447,8 @@ paragraphes avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼',
   ),
   67 => 
   array (
-    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele <modeleinexistant|lien=[->http://www.spip.net]>',
+    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele <modeleinexistant|lien=[->https://www.spip.net]>',
     2 => ENT_QUOTES,
   ),
   68 => 
@@ -465,8 +465,8 @@ paragraphes',
   ),
   69 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;&lt;/a&gt; [Article 1 avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;art1] [spip avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents ISO aàâä eéèêë iîï oô uùü</a> [Article 1 avec des accents ISO aàâä eéèêë iîï oô uùü->art1] [spip avec des accents ISO aàâä eéèêë iîï oô uùü->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;&lt;/a&gt; [Article 1 avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;art1] [spip avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents ISO aàâä eéèêë iîï oô uùü</a> [Article 1 avec des accents ISO aàâä eéèêë iîï oô uùü->art1] [spip avec des accents ISO aàâä eéèêë iîï oô uùü->https://www.spip.net] https://www.spip.net',
     2 => ENT_QUOTES,
   ),
   70 => 
@@ -507,8 +507,8 @@ paragraphes',
   ),
   76 => 
   array (
-    0 => 'Un modele avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml; &lt;modeleinexistant|lien=[avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele avec des accents ISO aàâä eéèêë iîï oô uùü <modeleinexistant|lien=[avec des accents ISO aàâä eéèêë iîï oô uùü->http://www.spip.net]>',
+    0 => 'Un modele avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml; &lt;modeleinexistant|lien=[avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele avec des accents ISO aàâä eéèêë iîï oô uùü <modeleinexistant|lien=[avec des accents ISO aàâä eéèêë iîï oô uùü->https://www.spip.net]>',
     2 => ENT_QUOTES,
   ),
   77 => 
@@ -525,8 +525,8 @@ paragraphes avec des accents ISO aàâä eéèêë iîï oô uùü',
   ),
   78 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;&lt;/a&gt; [Article 1 avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;art1] [spip avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼</a> [Article 1 avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->art1] [spip avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;&lt;/a&gt; [Article 1 avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;art1] [spip avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼</a> [Article 1 avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->art1] [spip avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->https://www.spip.net] https://www.spip.net',
     2 => ENT_QUOTES,
   ),
   79 => 
@@ -567,8 +567,8 @@ paragraphes avec des accents ISO aàâä eéèêë iîï oô uùü',
   ),
   85 => 
   array (
-    0 => 'Un modele avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14; &lt;modeleinexistant|lien=[avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼ <modeleinexistant|lien=[avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->http://www.spip.net]>',
+    0 => 'Un modele avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14; &lt;modeleinexistant|lien=[avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼ <modeleinexistant|lien=[avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->https://www.spip.net]>',
     2 => ENT_QUOTES,
   ),
   86 => 
@@ -597,8 +597,8 @@ paragraphes avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼',
   ),
   89 => 
   array (
-    0 => 'Un texte avec des &lt;a href="http://spip.net"&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href="http://spip.net"&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->https://www.spip.net] https://www.spip.net',
     2 => ENT_NOQUOTES,
   ),
   90 => 
@@ -639,8 +639,8 @@ paragraphes avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼',
   ),
   96 => 
   array (
-    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele <modeleinexistant|lien=[->http://www.spip.net]>',
+    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele <modeleinexistant|lien=[->https://www.spip.net]>',
     2 => ENT_NOQUOTES,
   ),
   97 => 
@@ -657,8 +657,8 @@ paragraphes',
   ),
   98 => 
   array (
-    0 => 'Un texte avec des &lt;a href="http://spip.net"&gt;liens avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;&lt;/a&gt; [Article 1 avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;art1] [spip avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents ISO aàâä eéèêë iîï oô uùü</a> [Article 1 avec des accents ISO aàâä eéèêë iîï oô uùü->art1] [spip avec des accents ISO aàâä eéèêë iîï oô uùü->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href="http://spip.net"&gt;liens avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;&lt;/a&gt; [Article 1 avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;art1] [spip avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents ISO aàâä eéèêë iîï oô uùü</a> [Article 1 avec des accents ISO aàâä eéèêë iîï oô uùü->art1] [spip avec des accents ISO aàâä eéèêë iîï oô uùü->https://www.spip.net] https://www.spip.net',
     2 => ENT_NOQUOTES,
   ),
   99 => 
@@ -699,8 +699,8 @@ paragraphes',
   ),
   105 => 
   array (
-    0 => 'Un modele avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml; &lt;modeleinexistant|lien=[avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele avec des accents ISO aàâä eéèêë iîï oô uùü <modeleinexistant|lien=[avec des accents ISO aàâä eéèêë iîï oô uùü->http://www.spip.net]>',
+    0 => 'Un modele avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml; &lt;modeleinexistant|lien=[avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele avec des accents ISO aàâä eéèêë iîï oô uùü <modeleinexistant|lien=[avec des accents ISO aàâä eéèêë iîï oô uùü->https://www.spip.net]>',
     2 => ENT_NOQUOTES,
   ),
   106 => 
@@ -717,8 +717,8 @@ paragraphes avec des accents ISO aàâä eéèêë iîï oô uùü',
   ),
   107 => 
   array (
-    0 => 'Un texte avec des &lt;a href="http://spip.net"&gt;liens avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;&lt;/a&gt; [Article 1 avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;art1] [spip avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼</a> [Article 1 avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->art1] [spip avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href="http://spip.net"&gt;liens avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;&lt;/a&gt; [Article 1 avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;art1] [spip avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼</a> [Article 1 avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->art1] [spip avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->https://www.spip.net] https://www.spip.net',
     2 => ENT_NOQUOTES,
   ),
   108 => 
@@ -759,8 +759,8 @@ paragraphes avec des accents ISO aàâä eéèêë iîï oô uùü',
   ),
   114 => 
   array (
-    0 => 'Un modele avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14; &lt;modeleinexistant|lien=[avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼ <modeleinexistant|lien=[avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->http://www.spip.net]>',
+    0 => 'Un modele avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14; &lt;modeleinexistant|lien=[avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼ <modeleinexistant|lien=[avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->https://www.spip.net]>',
     2 => ENT_NOQUOTES,
   ),
   115 => 
@@ -791,8 +791,8 @@ paragraphes avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼',
   ),
   118 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->https://www.spip.net] https://www.spip.net',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'ISO-8859-1',
   ),
@@ -840,8 +840,8 @@ paragraphes avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼',
   ),
   125 => 
   array (
-    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele <modeleinexistant|lien=[->http://www.spip.net]>',
+    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele <modeleinexistant|lien=[->https://www.spip.net]>',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'ISO-8859-1',
   ),
@@ -860,8 +860,8 @@ paragraphes',
   ),
   127 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;&lt;/a&gt; [Article 1 avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;art1] [spip avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents ISO aàâä eéèêë iîï oô uùü</a> [Article 1 avec des accents ISO aàâä eéèêë iîï oô uùü->art1] [spip avec des accents ISO aàâä eéèêë iîï oô uùü->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;&lt;/a&gt; [Article 1 avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;art1] [spip avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents ISO aàâä eéèêë iîï oô uùü</a> [Article 1 avec des accents ISO aàâä eéèêë iîï oô uùü->art1] [spip avec des accents ISO aàâä eéèêë iîï oô uùü->https://www.spip.net] https://www.spip.net',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'ISO-8859-1',
   ),
@@ -909,8 +909,8 @@ paragraphes',
   ),
   134 => 
   array (
-    0 => 'Un modele avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml; &lt;modeleinexistant|lien=[avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele avec des accents ISO aàâä eéèêë iîï oô uùü <modeleinexistant|lien=[avec des accents ISO aàâä eéèêë iîï oô uùü->http://www.spip.net]>',
+    0 => 'Un modele avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml; &lt;modeleinexistant|lien=[avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele avec des accents ISO aàâä eéèêë iîï oô uùü <modeleinexistant|lien=[avec des accents ISO aàâä eéèêë iîï oô uùü->https://www.spip.net]>',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'ISO-8859-1',
   ),
@@ -929,8 +929,8 @@ paragraphes avec des accents ISO aàâä eéèêë iîï oô uùü',
   ),
   136 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;&lt;/a&gt; [Article 1 avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;art1] [spip avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼</a> [Article 1 avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->art1] [spip avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;&lt;/a&gt; [Article 1 avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;art1] [spip avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼</a> [Article 1 avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->art1] [spip avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->https://www.spip.net] https://www.spip.net',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'ISO-8859-1',
   ),
@@ -978,8 +978,8 @@ paragraphes avec des accents ISO aàâä eéèêë iîï oô uùü',
   ),
   143 => 
   array (
-    0 => 'Un modele avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14; &lt;modeleinexistant|lien=[avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼ <modeleinexistant|lien=[avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->http://www.spip.net]>',
+    0 => 'Un modele avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14; &lt;modeleinexistant|lien=[avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼ <modeleinexistant|lien=[avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->https://www.spip.net]>',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'ISO-8859-1',
   ),
@@ -1012,8 +1012,8 @@ paragraphes avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼',
   ),
   147 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->https://www.spip.net] https://www.spip.net',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'UTF-8',
   ),
@@ -1061,8 +1061,8 @@ paragraphes avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼',
   ),
   154 => 
   array (
-    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele <modeleinexistant|lien=[->http://www.spip.net]>',
+    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele <modeleinexistant|lien=[->https://www.spip.net]>',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'UTF-8',
   ),
@@ -1082,7 +1082,7 @@ paragraphes',
   156 => 
   array (
     0 => '',
-    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents ISO aàâä eéèêë iîï oô uùü</a> [Article 1 avec des accents ISO aàâä eéèêë iîï oô uùü->art1] [spip avec des accents ISO aàâä eéèêë iîï oô uùü->http://www.spip.net] http://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents ISO aàâä eéèêë iîï oô uùü</a> [Article 1 avec des accents ISO aàâä eéèêë iîï oô uùü->art1] [spip avec des accents ISO aàâä eéèêë iîï oô uùü->https://www.spip.net] https://www.spip.net',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'UTF-8',
   ),
@@ -1131,7 +1131,7 @@ paragraphes',
   163 => 
   array (
     0 => '',
-    1 => 'Un modele avec des accents ISO aàâä eéèêë iîï oô uùü <modeleinexistant|lien=[avec des accents ISO aàâä eéèêë iîï oô uùü->http://www.spip.net]>',
+    1 => 'Un modele avec des accents ISO aàâä eéèêë iîï oô uùü <modeleinexistant|lien=[avec des accents ISO aàâä eéèêë iîï oô uùü->https://www.spip.net]>',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'UTF-8',
   ),
@@ -1147,8 +1147,8 @@ paragraphes avec des accents ISO aàâä eéèêë iîï oô uùü',
   ),
   165 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;&lt;/a&gt; [Article 1 avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;art1] [spip avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼</a> [Article 1 avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->art1] [spip avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;&lt;/a&gt; [Article 1 avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;art1] [spip avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼</a> [Article 1 avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->art1] [spip avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->https://www.spip.net] https://www.spip.net',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'UTF-8',
   ),
@@ -1196,8 +1196,8 @@ paragraphes avec des accents ISO aàâä eéèêë iîï oô uùü',
   ),
   172 => 
   array (
-    0 => 'Un modele avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml; &lt;modeleinexistant|lien=[avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼ <modeleinexistant|lien=[avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->http://www.spip.net]>',
+    0 => 'Un modele avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml; &lt;modeleinexistant|lien=[avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼ <modeleinexistant|lien=[avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->https://www.spip.net]>',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'UTF-8',
   ),
@@ -1230,8 +1230,8 @@ paragraphes avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼',
   ),
   176 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;&lt;/a&gt; [Article 1 avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;art1] [spip avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents ISO aàâä eéèêë iîï oô uùü</a> [Article 1 avec des accents ISO aàâä eéèêë iîï oô uùü->art1] [spip avec des accents ISO aàâä eéèêë iîï oô uùü->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;&lt;/a&gt; [Article 1 avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;art1] [spip avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents ISO aàâä eéèêë iîï oô uùü</a> [Article 1 avec des accents ISO aàâä eéèêë iîï oô uùü->art1] [spip avec des accents ISO aàâä eéèêë iîï oô uùü->https://www.spip.net] https://www.spip.net',
     2 => ENT_QUOTES,
     3 => 'ISO-8859-1',
   ),
@@ -1279,8 +1279,8 @@ paragraphes avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼',
   ),
   183 => 
   array (
-    0 => 'Un modele avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml; &lt;modeleinexistant|lien=[avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele avec des accents ISO aàâä eéèêë iîï oô uùü <modeleinexistant|lien=[avec des accents ISO aàâä eéèêë iîï oô uùü->http://www.spip.net]>',
+    0 => 'Un modele avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml; &lt;modeleinexistant|lien=[avec des accents ISO a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele avec des accents ISO aàâä eéèêë iîï oô uùü <modeleinexistant|lien=[avec des accents ISO aàâä eéèêë iîï oô uùü->https://www.spip.net]>',
     2 => ENT_QUOTES,
     3 => 'ISO-8859-1',
   ),
@@ -1299,8 +1299,8 @@ paragraphes avec des accents ISO aàâä eéèêë iîï oô uùü',
   ),
   185 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;&lt;/a&gt; [Article 1 avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;art1] [spip avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼</a> [Article 1 avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->art1] [spip avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;&lt;/a&gt; [Article 1 avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;art1] [spip avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼</a> [Article 1 avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->art1] [spip avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->https://www.spip.net] https://www.spip.net',
     2 => ENT_QUOTES,
     3 => 'ISO-8859-1',
   ),
@@ -1348,8 +1348,8 @@ paragraphes avec des accents ISO aàâä eéèêë iîï oô uùü',
   ),
   192 => 
   array (
-    0 => 'Un modele avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14; &lt;modeleinexistant|lien=[avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼ <modeleinexistant|lien=[avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->http://www.spip.net]>',
+    0 => 'Un modele avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14; &lt;modeleinexistant|lien=[avec des accents UTF-8 a&Atilde;&nbsp;&Atilde;&cent;&Atilde;&curren; e&Atilde;&copy;&Atilde;&uml;&Atilde;&ordf;&Atilde;&laquo; i&Atilde;&reg;&Atilde;&macr; o&Atilde;&acute; u&Atilde;&sup1;&Atilde;&frac14;-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼ <modeleinexistant|lien=[avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->https://www.spip.net]>',
     2 => ENT_QUOTES,
     3 => 'ISO-8859-1',
   ),
@@ -1383,7 +1383,7 @@ paragraphes avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼',
   196 => 
   array (
     0 => '',
-    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents ISO aàâä eéèêë iîï oô uùü</a> [Article 1 avec des accents ISO aàâä eéèêë iîï oô uùü->art1] [spip avec des accents ISO aàâä eéèêë iîï oô uùü->http://www.spip.net] http://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents ISO aàâä eéèêë iîï oô uùü</a> [Article 1 avec des accents ISO aàâä eéèêë iîï oô uùü->art1] [spip avec des accents ISO aàâä eéèêë iîï oô uùü->https://www.spip.net] https://www.spip.net',
     2 => ENT_QUOTES,
     3 => 'UTF-8',
   ),
@@ -1432,7 +1432,7 @@ paragraphes avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼',
   203 => 
   array (
     0 => '',
-    1 => 'Un modele avec des accents ISO aàâä eéèêë iîï oô uùü <modeleinexistant|lien=[avec des accents ISO aàâä eéèêë iîï oô uùü->http://www.spip.net]>',
+    1 => 'Un modele avec des accents ISO aàâä eéèêë iîï oô uùü <modeleinexistant|lien=[avec des accents ISO aàâä eéèêë iîï oô uùü->https://www.spip.net]>',
     2 => ENT_QUOTES,
     3 => 'UTF-8',
   ),
@@ -1448,8 +1448,8 @@ paragraphes avec des accents ISO aàâä eéèêë iîï oô uùü',
   ),
   205 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;&lt;/a&gt; [Article 1 avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;art1] [spip avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼</a> [Article 1 avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->art1] [spip avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;&lt;/a&gt; [Article 1 avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;art1] [spip avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼</a> [Article 1 avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->art1] [spip avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->https://www.spip.net] https://www.spip.net',
     2 => ENT_QUOTES,
     3 => 'UTF-8',
   ),
@@ -1497,8 +1497,8 @@ paragraphes avec des accents ISO aàâä eéèêë iîï oô uùü',
   ),
   212 => 
   array (
-    0 => 'Un modele avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml; &lt;modeleinexistant|lien=[avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼ <modeleinexistant|lien=[avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->http://www.spip.net]>',
+    0 => 'Un modele avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml; &lt;modeleinexistant|lien=[avec des accents UTF-8 a&agrave;&acirc;&auml; e&eacute;&egrave;&ecirc;&euml; i&icirc;&iuml; o&ocirc; u&ugrave;&uuml;-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼ <modeleinexistant|lien=[avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼->https://www.spip.net]>',
     2 => ENT_QUOTES,
     3 => 'UTF-8',
   ),
@@ -1533,8 +1533,8 @@ paragraphes avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼',
   ),
   216 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->https://www.spip.net] https://www.spip.net',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'ISO-8859-1',
     4 => false,
@@ -1589,8 +1589,8 @@ paragraphes avec des accents UTF-8 aÃ Ã¢Ã¤ eÃ©Ã¨ÃªÃ« iÃ®Ã¯ oÃ´ uÃ¹Ã¼',
   ),
   223 => 
   array (
-    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele <modeleinexistant|lien=[->http://www.spip.net]>',
+    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele <modeleinexistant|lien=[->https://www.spip.net]>',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'ISO-8859-1',
     4 => false,
@@ -1627,8 +1627,8 @@ paragraphes',
   ),
   227 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->https://www.spip.net] https://www.spip.net',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'ISO-8859-1',
     4 => true,
@@ -1683,8 +1683,8 @@ paragraphes',
   ),
   234 => 
   array (
-    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele <modeleinexistant|lien=[->http://www.spip.net]>',
+    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele <modeleinexistant|lien=[->https://www.spip.net]>',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'ISO-8859-1',
     4 => true,
@@ -1721,8 +1721,8 @@ paragraphes',
   ),
   238 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->https://www.spip.net] https://www.spip.net',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'UTF-8',
     4 => false,
@@ -1777,8 +1777,8 @@ paragraphes',
   ),
   245 => 
   array (
-    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele <modeleinexistant|lien=[->http://www.spip.net]>',
+    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele <modeleinexistant|lien=[->https://www.spip.net]>',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'UTF-8',
     4 => false,
@@ -1815,8 +1815,8 @@ paragraphes',
   ),
   249 => 
   array (
-    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des &lt;a href=&quot;http://spip.net&quot;&gt;liens&lt;/a&gt; [Article 1-&gt;art1] [spip-&gt;https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->https://www.spip.net] https://www.spip.net',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'UTF-8',
     4 => true,
@@ -1871,8 +1871,8 @@ paragraphes',
   ),
   256 => 
   array (
-    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;http://www.spip.net]&gt;',
-    1 => 'Un modele <modeleinexistant|lien=[->http://www.spip.net]>',
+    0 => 'Un modele &lt;modeleinexistant|lien=[-&gt;https://www.spip.net]&gt;',
+    1 => 'Un modele <modeleinexistant|lien=[->https://www.spip.net]>',
     2 => ENT_COMPAT|ENT_HTML401,
     3 => 'UTF-8',
     4 => true,

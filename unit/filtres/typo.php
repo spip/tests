@@ -63,14 +63,14 @@
   ),
   5 => 
   array (
-    0 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->https://www.spip.net] https://www.spip.net',
     2 => true,
   ),
   6 => 
   array (
-    0 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->http://www.spip.net] http://www.spip.net',
-    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->http://www.spip.net] http://www.spip.net',
+    0 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->https://www.spip.net] https://www.spip.net',
+    1 => 'Un texte avec des <a href="http://spip.net">liens</a> [Article 1->art1] [spip->https://www.spip.net] https://www.spip.net',
     2 => false,
   ),
   7 => 
@@ -111,14 +111,14 @@
   ),
   13 => 
   array (
-    0 => 'Un modele <tt>&lt;modeleinexistant|lien=[-&gt;</tt>http://www.spip.net]>',
-    1 => 'Un modele <modeleinexistant|lien=[->http://www.spip.net]>',
+    0 => 'Un modele <tt>&lt;modeleinexistant|lien=[-&gt;</tt>https://www.spip.net]>',
+    1 => 'Un modele <modeleinexistant|lien=[->https://www.spip.net]>',
     2 => true,
   ),
   14 => 
   array (
-    0 => 'Un modele <tt>&lt;modeleinexistant|lien=[-&gt;</tt>http://www.spip.net]>',
-    1 => 'Un modele <modeleinexistant|lien=[->http://www.spip.net]>',
+    0 => 'Un modele <tt>&lt;modeleinexistant|lien=[-&gt;</tt>https://www.spip.net]>',
+    1 => 'Un modele <modeleinexistant|lien=[->https://www.spip.net]>',
     2 => false,
   ),
 );

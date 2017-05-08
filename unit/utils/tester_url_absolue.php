@@ -32,7 +32,7 @@
   0 => 
   array (
     0 => true,
-    1 => 'http://www.spip.net/',
+    1 => 'https://www.spip.net/',
   ),
   1 => 
   array (
@@ -42,7 +42,7 @@
   2 => 
   array (
     0 => true,
-    1 => 'http://www.spip.net/sousrep/fr/',
+    1 => 'https://www.spip.net/sousrep/fr/',
   ),
   3 => 
   array (
